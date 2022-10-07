@@ -14,7 +14,7 @@
 ## Table of Contents
 
 - [What is Git?](docs/what-is-git.md)
-- [Setup](docs/setup.md)
+- [Repository](docs/repository.md)
 - [Branches](docs/branches.md)
   - What is a branch and what does it do?
   - Local vs remote branches
