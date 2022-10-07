@@ -2,31 +2,47 @@
 
 - [Branches](#branches)
   - [What is a branch and what does it do?](#what-is-a-branch-and-what-does-it-do)
+    - [Why "branch"?](#why-branch)
   - [Local vs remote branches](#local-vs-remote-branches)
   - [Working with branches (git branch & git checkout)](#working-with-branches-git-branch--git-checkout)
+  - [Exercise](#exercise)
 
 ## What is a branch and what does it do?
 
-Branching offers a way to work on a new feature without affecting the main codebase.
+A branch is an independent copy of the repository.
 
+Every repo has at least one branch, the central default branch. This branch is usually called `main` (or `master`)[^1]. The main branch usually represents the production state of a repository (e.g. live application).
+
+Most repos will also have a `develop` branch that usually represents the state of all fully developed and approved features.
+
+Besides these two branches, a repo will often have multiple working branches as well. A working branch is used to develop a specific feature, implement a specific bug- or hotfix, prepare a specific release and so on. Since a branch is independent, all changes made on that branch, will not affect any other branch.
+
+Therefore different contributors can work independently on files without the need to pay attention to someone else's changes.
+
+Branches can be integrated into another branch by merging it. Usually merging is done via pull requests (PR), sometimes also called merge requests (MR). We'll explore that in depth in another chapter.
+
+### Why "branch"?
 Like a branch on a tree, a branch still belongs to the main codebase, the tree trunk.  
 Like a tree, a repository can have many branches.  
-Like on a tree, branches can grow on other branches.
-
-When you create a branch, you start a line of work that will not affect what happens on its base branch. When you are done, you can create a merge that branch back to the base branch.
-
-Usually, there are two main branches and multiple working branches in a repository.
-
-The `main` (or `master`) branch usually tracks the state of the live application.  
-The `develop` branch tracks the state of the fully developed and approved features.  
-The working branches track the state of specific feature development, bug- or hotfixes.
+Like a branch on a tree, branches can grow on other branches.
 
 ## Local vs remote branches
 
-Most of the time, the repository will be hosted on Github, Bitbucket, or other hosting services; especially when working with others. When you make changes, these are only visible to you until you push them to the remote repository. If other contributors make and push changes, you need to fetch or pull them to be able to see them.
+Most of the time, the repository will be hosted on a hosting service like Bitbucket; especially when multiple people want to work on it. When you make changes, these are only visible to you until you synchronize them to the upstream (remote) repository. If other contributors make and synchronize changes, you need to synchronize them to be able to see them.
 
-Most GUIs, like the [Fork](https://git-fork.com/), will automatically fetch the repository periodically. Remote branches will be listed as `origin/{branchName}` and prefixed with an icon. If your local branch is in sync with the remote branch, only the icon will be shown in the tree view.  
-In later chapters we'll explain how to keep local and remote branches in sync.
+> Synchronizing changes is done by
+>
+>- pushing (upload local changes to the upstream repo)
+>- fetching (download changes on the upstream repo to your local copy)
+>- pulling (like fetching, but will move your local branches to the latest commit)
+>
+>We will discuss these in depth in later chapters.
+
+You can list all local and remote branches with the command `git branch -a`. Local branches are listed by name, the branch you are currently on, is prefixed with an asterisk (*) and in a different color. Branches of the upstream repository are listed as `remote/origin/{branchName}`, and in a different color.
+
+In Fork, remote branches are listed as `origin/{branchName}` and prefixed with an icon; local branches are listed as `{branchName}`. If you are currently on the branch, the local branch is prefixed by a checkmark icon.
+
+If the remote and local branch are on the same commit, in the tree view, the origin name is not displayed, only the icon.
 
 ![local branch in sync with remote branch](../assets/docs/branches_local-remote-sync.JPG)  
 *Remote and local branches in sync*
@@ -37,7 +53,9 @@ In later chapters we'll explain how to keep local and remote branches in sync.
 ![remote branch is one commit ahead](../assets/docs/branches_local-remote-remote-ahead.JPG)  
 *Remote branch is one commit ahead*
 
-If you do not use a GUI, you can list all local and remote branches with the command `git branch -a`.
+>In VS Code, the branch you are currently on, is displayed on the left in the status bar (at the bottom).
+>
+>![VS Code status bar](../assets/docs/branches_vs-code.JPG)
 
 ## Working with branches (git branch & git checkout)
 
@@ -48,13 +66,22 @@ You can create a new branch either using the GUI or by running one of the follow
 - `git switch -c {branch-name}`
 - `git checkout -b {branch-name}`
 
-In the GUI right-click on the commit (either in the list or the tree-view) and select `New Branch...`.
+In Fork right-click on the commit (either in the list or the tree-view) and select `New Branch...`.
 
 If you want to checkout an existing branch, you can run one of the following commands
 
 - `git checkout {branch-name}`
 - `git switch {branch-name}`
 
+In Fork, double click on a branch, either in the list or on the tree. Alternatively right click on it and select `Checkout...`.
+
+## Exercise
+
+1. Create at least one branch and check it out.
+2. Switch back to the main branch and then back again to one you've created in step 1.
+
 ---
+
+[^1]: The standard used to be `master` - master/slave references were pretty common in technology - but now shifts towards the more descriptive and inclusive name `main`.
 
 [continue to 'Workflow: Making changes'](workflow-making-changes.md)

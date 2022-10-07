@@ -2,13 +2,14 @@
 
 - ... covers the basics of git and how to work with it.
 - ... includes command line and [Fork](https://git-fork.com/) examples.
-- ... lists useful VSCode extensions.
+- ... lists useful VS Code extensions.
 
 ## Prerequisites
 
-1. Setup an account on Bitbucket.
+1. Setup an account on Bitbucket (or another VCS hosting service).
 2. Setup [Fork](https://git-fork.com/) or another Git GUI.
-3. Create a SSH key and connect it to your account and GUI.
+3. Create an SSH key and connect it to your account and GUI.
+4. Install and setup VS Code (or another IDE).
 
 ## Table of Contents
 
@@ -40,7 +41,8 @@
 - Best Practices
   - Git-flow
   - Conventional commits
-  - VSCode extensions
+  - VS Code extensions
+- [Glossary](docs/glossary.md)
 
 ## Further resources
 
