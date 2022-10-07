@@ -1,0 +1,9 @@
+{
+  "name": "git-training",
+  "version": "1.0.0",
+  "description": "Guide, examples and exercises to learn how to work with git.",
+  "license": "0BSD",
+  "repository": {
+    "type": "git"
+  }
+}
