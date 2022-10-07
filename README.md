@@ -42,6 +42,7 @@
   - Git-flow
   - Conventional commits
   - VS Code extensions
+- [Glossary](docs/glossary.md)
 
 ## Further resources
 
