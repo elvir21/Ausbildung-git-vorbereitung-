@@ -22,6 +22,7 @@ Therefore different contributors can work independently on files without the nee
 Branches can be integrated into another branch by merging it. Usually merging is done via pull requests (PR), sometimes also called merge requests (MR). We'll explore that in depth in another chapter.
 
 ### Why "branch"?
+
 Like a branch on a tree, a branch still belongs to the main codebase, the tree trunk.  
 Like a tree, a repository can have many branches.  
 Like a branch on a tree, branches can grow on other branches.
@@ -77,8 +78,9 @@ In Fork, double click on a branch, either in the list or on the tree. Alternativ
 
 ## Exercise
 
-1. Create at least one branch and check it out.
-2. Switch back to the main branch and then back again to one you've created in step 1.
+1. Create at least one `notes` branch and check it out.
+2. Switch between branches and then back again to your new `notes` branch.
+3. Use this branch to add personal notes.
 
 ---
 
