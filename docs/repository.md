@@ -26,7 +26,7 @@ for your own notes on working with Git.*
 ### How to fork
 
 Usually, you can fork a repo via the interface of the repo's hosting service.
-n this case, the repository is hosted on the company's bitbucket space and
+In this case, the repository is hosted on the company's bitbucket space and
 you most likely do not have the rights to create repositories yourself.
 
 1. **clone the repository**  
@@ -86,7 +86,11 @@ Depending on when you take that step, you will need do different things to host 
 
 When you create a repository, you always need to define the owner (space) of the repository, the name and the visibility.
 Most hosting services provide options to automatically create common files, like a README.
-If you create an empty repository, most hosting services will list all the options you now have to fill the repo with the files you need.
+If you create an empty repository, most hosting services will list all the options you now have to fill the repo with the files you need; follow them.
+
+For your convenience, find the necessary steps to connect a local repository below.
+
+**If you have any questions or need support, don't hesitate to ask your colleagues.**
 
 ### Connecting a local repository
 
