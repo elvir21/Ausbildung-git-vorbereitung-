@@ -6,15 +6,16 @@
 
 ## Prerequisites
 
-1. Setup an account on Bitbucket (or another VCS hosting service).
+1. Setup an account on the company's Bitbucket (or another VCS hosting service).
 2. Setup [Fork](https://git-fork.com/) or another Git GUI.
-3. Create an SSH key and connect it to your account and GUI.
-4. Install and setup VS Code (or another IDE).
+3. Setup a personal account on a VCS hosting service (e.g. Github).
+4. Create an SSH key and connect it to your Bitbucket and Github accounts and GUI.
+5. Install and setup VS Code (or another IDE).
 
 ## Table of Contents
 
 - [What is Git?](docs/what-is-git.md)
-- [Setup](docs/setup.md)
+- [Repository](docs/repository.md)
 - [Branches](docs/branches.md)
   - What is a branch and what does it do?
   - Local vs remote branches
