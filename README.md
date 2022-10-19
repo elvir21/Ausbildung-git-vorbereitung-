@@ -1,15 +1,15 @@
 # Git Training
 
-- ... covers the basics of git and how to work with it.
-- ... includes command line and [Fork](https://git-fork.com/) examples.
-- ... lists useful VS Code extensions.
+- ... covers the basics of Git and how to work with it.
+- ... includes examples for Git's command line interface (CLI) and the Git GUI [Fork](https://git-fork.com/).
+- ... lists useful Visual Studio Code (VS Code) extensions.
 
 ## Prerequisites
 
-1. Setup an account on the company's Bitbucket (or another VCS hosting service).
-2. Setup [Fork](https://git-fork.com/) or another Git GUI.
-3. Setup a personal account on a VCS hosting service (e.g. Github).
-4. Create an SSH key and connect it to your Bitbucket and Github accounts and GUI.
+1. Set up an account on the company's Bitbucket (or another Version Control System (VCS)).
+2. Set up [Fork](https://git-fork.com/) or another Git GUI.
+3. Set up a personal account on a VCS (e.g. GitHub).
+4. Create an SSH key and connect it to your Bitbucket and GitHub accounts and GUI.
 5. Install and setup VS Code (or another IDE).
 
 ## Table of Contents
@@ -19,26 +19,26 @@
 - [Branches](docs/branches.md)
   - What is a branch and what does it do?
   - Local vs remote branches
-  - Working with branches (git branch & git checkout)
+  - Working with branches (`git branch` & `git checkout`)
 - [Workflow: Making changes](docs/workflow-making-changes.md)
-  - Staging changes (git add)
+  - Staging changes (`git add`)
   - Keeping an overview
-    - Status of current changes (git status)
-    - History (git log)
-    - Details per line (git blame)
-  - Committing changes (git commit)
-    - Amending changes (--amend)
-  - Stashing changes (git stash)
-  - Comparing changes (git diff)
-  - Reset (git reset) *#advanced*
-  - Revert (git revert) *#advanced* *#caution (ask a peer for support)*
+    - Status of current changes (`git status`)
+    - History (`git log`)
+    - Details per line (`git blame`)
+  - Committing changes (`git commit`)
+    - Amending changes to previous commits (`--amend`)
+  - Stashing changes (`git stash`)
+  - Comparing changes (`git diff`)
+  - Reset (`git reset`) *#advanced*
+  - Revert (`git revert`) *#advanced* *#caution (ask a peer for support)*
 - Workflow: Synchronizing changes
-  - Fetch vs Pull (git fetch & git pull)
-  - Push & Force Push (git push)
-  - Rebase (git rebase)
+  - Fetch vs Pull (`git fetch` & `git pull`)
+  - Push & Force Push (`git push`)
+  - Rebase (`git rebase`)
   - Dealing with merge conflicts
-  - Tags (git tag)
-  - Cherry picking (git cherry-pick)
+  - Tags (`git tag`)
+  - Cherry picking (`git cherry-pick`)
 - Best Practices
   - Git-flow
   - Conventional commits
