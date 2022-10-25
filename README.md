@@ -51,7 +51,7 @@
 : an interactive tutorial in the **browser** for working with Git
 - [Oh My Git!](https://ohmygit.org/)
 : a game for learning git
-: a written guide with many examples
 - [Git's guide](https://git-scm.com/book/en/v2)
 : the official written guide - very detailed, also available in [German](https://git-scm.com/book/de/v2) and other languages
 - [Atlassian's guide](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+: a written guide with many examples
