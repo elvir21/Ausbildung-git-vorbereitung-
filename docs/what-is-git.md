@@ -27,4 +27,4 @@ In this case, the copy of the repo that is stored on the provider's servers is c
 
 [^1]: You can exclude specific files and folders so that Git will not track changes made to them. In Git, you do this with a `.gitignore` file.
 
-[continue to 'Branches'](branches.md)
+[continue to 'Repository'](repository.md)
