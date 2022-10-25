@@ -115,3 +115,7 @@ Don't forget to commit your changes, if you haven't already.
 
 Fork this repo (or create a new one).
 We will use the repo for exercises in this training.
+
+---
+
+[continue to 'Branches'](branches.md)
