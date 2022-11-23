@@ -55,3 +55,11 @@
 : the official written guide - very detailed, also available in [German](https://git-scm.com/book/de/v2) and other languages
 - [Atlassian's guide](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 : a written guide with many examples
+
+## Elvir's Notizen 
+
+(1) Nachdem ich einen Branch committed habe, dann nochmal Pushen um einen Pull Request auf Bitbucket erstellen zu können. 
+(1) Wenn der Pull Request (durch einen/eine Kollegen/in genehmigt wurde) auf Bitbucket durch ist, erst dann den Branch Mergen.
+(2) Nachdem Mergen auf Bitbucket, im Fork nochmal Fetchen. 
+(4) Um den Lokalen Develope auf den Remote Origin - Develope, auf den gleichen Stand zu bringen. Muss ich den Branch auschecken und auf den Origin - Develope rechts klicken und den "reset develope to here" anklicken.
+
