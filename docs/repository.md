@@ -62,7 +62,7 @@ you most likely do not have the rights to create repositories yourself.
    You can add it by running the command
 
    ```bash
-    git remote add upstream git@bitbucket.hmmh.de:29418/u3uiws/ausbildung-git.git
+    git remote add upstream ssh://git@bitbucket.hmmh.de:29418/u3uiws/ausbildung-git.git
    ```
 
    If you check your remotes again, you should see both the origin - pointing to your fork -

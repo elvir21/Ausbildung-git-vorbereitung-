@@ -9,7 +9,7 @@
 1. Set up an account on the company's Bitbucket (or another Version Control System (VCS)).
 2. Set up [Fork](https://git-fork.com/) or another Git GUI.
 3. Set up a personal account on a VCS (e.g. GitHub).
-4. Create an SSH key and connect it to your Bitbucket and GitHub accounts and GUI.
+4. Create an SSH key and connect it to your Bitbucket and GitHub accounts and Git GUI. Refer to the [SSH digression](docs/digression_ssh.md) for more information.
 5. Install and setup VS Code (or another IDE).
 
 ## Table of Contents

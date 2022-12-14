@@ -3,7 +3,10 @@
     "ausbildung",
     "bitbucket",
     "hmmh",
-    "uiws"
+    "uiws",
+    "unstage",
+    "unstaged",
+    "unstaging"
   ],
   "[markdown]": {
     "editor.trimAutoWhitespace": false,
