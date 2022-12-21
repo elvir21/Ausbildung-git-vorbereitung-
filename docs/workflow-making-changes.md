@@ -206,6 +206,10 @@ In the Source Control Panel, in the commits section, you an right-click on the c
 *#advanced* *#caution (ask a peer for support)*  
 This function is advanced and may result in unexpected, unwanted changes. Don't hesitate to ask for support, if you're not entirely sure what you're doing.
 
+If you want to undo all changes of a specific commit, you can use the `git revert <commitId>` command. This will create a new commit that inverts all changes that were made in that commit. This way, the history of the repository will not be changed.
+
+In Fork, you can right-click on the commit you want to revert and select `Revert Commit...`. If the checkbox "Commit the changes" is checked in the pop-up dialogue, a commit will be automatically made; the commit message will be `Revert <commit message of the original commit>`.
+
 ---
 
 [continue to 'Workflow: Synchronizing changes'](workflow-sync-changes.md)
